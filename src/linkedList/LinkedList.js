@@ -201,7 +201,7 @@ class LinkedList {
 
 	#getNodeAt(index) {
 		if (index === this.#length - 1) {
-			return this.#tail.data;
+			return this.#tail;
 		}
 
 		let currentNode = this.#head;
